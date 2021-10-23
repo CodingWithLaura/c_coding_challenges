@@ -5,12 +5,11 @@
 
 int solution(std::vector<int> gas, std::vector<int> costs)
 {
-  // sum liste gas < liste cost -> return -1
   unsigned int length_gas = gas.size();
   unsigned int length_costs = costs.size();
 
   assert(length_gas == length_costs);
-  //anfangswert für Schleife
+
   int minimum = gas[0] - costs[0];
   int m_index = 0;
   int tank = 0;
@@ -24,7 +23,7 @@ int solution(std::vector<int> gas, std::vector<int> costs)
       m_index = count + 1;
     }
   }
-  return m_index;
+  return (tank < 0) ? (-1) : m_index;
 }
 
 int main()
