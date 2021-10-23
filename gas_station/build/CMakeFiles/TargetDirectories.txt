@@ -1,0 +1,3 @@
+/home/laura/C_CodingChallenges/gas_station/build/CMakeFiles/rebuild_cache.dir
+/home/laura/C_CodingChallenges/gas_station/build/CMakeFiles/edit_cache.dir
+/home/laura/C_CodingChallenges/gas_station/build/CMakeFiles/gas_station.dir

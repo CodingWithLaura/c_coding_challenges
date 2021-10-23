@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/gas_station.dir/src/gas_station.cpp.o -o gas_station 
